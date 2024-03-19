@@ -6,6 +6,7 @@ import Focus from "./pages/focus";
 import Influence from "./pages/influence";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import "./index.css";
 
 function App() {
   return (

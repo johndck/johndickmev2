@@ -6,8 +6,8 @@ function Homeaccordian() {
   const [curOpen, setCurOpen] = useState(null);
 
   return (
-    <div className="p-3 mb-8">
-      <div className="w-11/12 mx-auto bg-slate-100 rounded-lg p-3">
+    <div className="p-3 mb-8 border">
+      <div className="w-11/12 md:w-112 mx-auto rounded-lg p-3">
         {accData.map((item) => {
           return (
             <AccordianItem

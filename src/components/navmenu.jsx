@@ -13,16 +13,16 @@ function NavElements() {
   return (
     <>
       <button
-        className="flex flex-col justify-around w-6 h-6 mr-6 lg:hidden"
+        className="flex flex-col justify-around w-[1.5rem] h-6 mr-6 lg:hidden"
         onClick={toggleMenu}
       >
-        <div className="w-6 h-1 bg-black"></div>
-        <div className="w-6 h-1 bg-black"></div>
+        <div className="h-1 w-[1.5rem] bg-black"></div>
+        <div className="h-1 w-[1.5rem] bg-black"></div>
       </button>
 
       {isOpen && (
-        <div className="absolute container top-full border border-black bg-white h-60 flex flex-col items-center ">
-          <div className="flex flex-col items-center space-y-4 mt-4 ">
+        <div className="absolute container top-full border bg-white h-60 flex flex-col items-center ">
+          <div className="flex flex-col items-center space-y-4 mt-4">
             <Link to="/evidence" onClick={toggleMenu}>
               Delivery Evidence
             </Link>
@@ -42,17 +42,20 @@ function NavElements() {
         </div>
       )}
 
-      <div className="hidden lg:block ml-24">
-        <Link to="/evidence" className="mr-4">
+      <div className="uppercase cursor-pointer font-opensans hidden lg:block ml-28 pb-6">
+        <Link to="/evidence" className="mr-4 text-neutral-400 hover:text-black">
           Delivery Evidence
         </Link>
-        <Link to="/focus" className="mr-4">
+        <Link to="/focus" className="mr-4  text-neutral-400 hover:text-black">
           Focus
         </Link>
-        <Link to="/influence" className="mr-4">
+        <Link
+          to="/influence"
+          className="mr-4 text-neutral-400 hover:text-black"
+        >
           Influences
         </Link>
-        <Link to="/contact" className="mr-4">
+        <Link to="/contact" className="mr-4 text-neutral-400 hover:text-black">
           Contact
         </Link>
       </div>

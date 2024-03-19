@@ -1,16 +1,12 @@
 function Homeorgs() {
   return (
-    <div className="text-white p-3 text-h2 font-opensans">
-      <h2>Delivered for these organisations</h2>
+    <div className="text-white p-3 text-h2 font-opensans flex flex-col items-center">
+      <h2>I delivered for these orgs:</h2>
 
-      <div className="grid grid-rows-1 md:grid-cols-2 mt-10 gap-6 p-5">
-        <div className="p-8 rounded-xl bg-slate-600 flex justify-center">
+      <div className="grid md:w-124 mt-8 gap-6 p-3 mb-6">
+        <div className="p-12 rounded-xl bg-slate-600 flex justify-center">
           <div>
-            <img
-              src="/assets/RGA.png"
-              alt="Reinsurance Group of America"
-              className="showcaseIcon"
-            />
+            <img src="/assets/RGA.png" alt="Reinsurance Group of America" />
           </div>
         </div>
         <div className="p-8 rounded-xl bg-slate-600 flex justify-center">
@@ -45,7 +41,6 @@ function Homeorgs() {
             />
           </div>
         </div>
-
         <div className="p-8 rounded-xl bg-slate-600 flex justify-center">
           <div>
             <img src="/assets/MOD.png" alt="THE MOD" className="showcaseIcon" />

@@ -2,7 +2,7 @@ function Homemission() {
   return (
     <div className="p-3 mb-8">
       <div className="w-11/12 mx-auto bg-slate-100 rounded-lg p-3">
-        <h2 className="text-h3 font-opensans">Me here 👋</h2>
+        <h2 className="text-h3 font-opensans">This is me 👋</h2>
         <p className="text-p font-opensans mt-3">
           For the next decade, my work will on removing blockers to the
           all-electric economy. I want sustainable economic growth (powered by
@@ -11,9 +11,18 @@ function Homemission() {
         <p className="text-h3 font-opensans mt-3">Areas of focus:</p>
 
         <ul className="mt-3 pl-5 space-y-4">
-          <li className="list-disc">Area 1</li>
-          <li className="list-disc">Area 2</li>
-          <li className="list-disc">Area 3</li>
+          <li className="list-disc">
+            <span className="font-bold">Area 1:</span> all-electric homes
+            powered by clean renewable energy
+          </li>
+          <li className="list-disc">
+            <span className="font-bold">Area 2:</span> tackle the barriers to
+            economic growth with sustainable solutions
+          </li>
+          <li className="list-disc">
+            <span className="font-bold">Area 3:</span> technology innovation to
+            unlock sustainable economic growth
+          </li>
         </ul>
         <div className="mt-3 flex flex-col justify-center items-center">
           <img
