@@ -11,17 +11,17 @@ function Homemission() {
         <p className="text-h3 font-opensans mt-3">Areas of focus:</p>
 
         <ul className="mt-3 pl-5 space-y-4">
-          <li className="list-disc">
-            <span className="font-bold">Area 1:</span> all-electric homes
+          <li className="list-disc font-opensans">
+            <span className="font-bold ">Area 1:</span> all-electric homes
             powered by clean renewable energy
           </li>
-          <li className="list-disc">
-            <span className="font-bold">Area 2:</span> tackle the barriers to
-            economic growth with sustainable solutions
+          <li className="list-disc font-opensans">
+            <span className="font-bold font-opensans">Area 2:</span> tackle the
+            barriers to economic growth with sustainable solutions
           </li>
-          <li className="list-disc">
-            <span className="font-bold">Area 3:</span> technology innovation to
-            unlock sustainable economic growth
+          <li className="list-disc font-opensans">
+            <span className="font-bold font-opensans">Area 3:</span> technology
+            innovation to unlock sustainable economic growth
           </li>
         </ul>
         <div className="mt-3 flex flex-col justify-center items-center">

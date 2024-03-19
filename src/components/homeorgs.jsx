@@ -1,7 +1,7 @@
 function Homeorgs() {
   return (
     <div className="text-white p-3 text-h2 font-opensans flex flex-col items-center">
-      <h2>I delivered for these orgs:</h2>
+      <h2>Where I have delivered:</h2>
 
       <div className="grid md:w-124 mt-8 gap-6 p-3 mb-6">
         <div className="p-12 rounded-xl bg-slate-600 flex justify-center">

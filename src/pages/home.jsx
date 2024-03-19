@@ -18,7 +18,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="bg-black">
+        <section className="bg-slate-800">
           <div className="container sm:mx-auto sm:max-w-4/5 md:mx-auto md:max-w-4/5 lg:mx-auto lg:max-w-4/5 xl:mx-auto xl:w-9/10 xl:max-w-1280">
             <Homeorgs />
           </div>
