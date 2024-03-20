@@ -1,7 +1,7 @@
 function ProjectCard({ card }) {
   return (
     <>
-      <div className="bg-white mb-3 rounded-xl p-6 shadow-lg font-opensans text-p">
+      <div className="bg-stone-50 mb-3 rounded-xl p-6 shadow-xl font-opensans text-p">
         <div className="flex items-center py-4">
           <div>
             <img src={card.logo} alt="logo" className="h-4 w-auto" />

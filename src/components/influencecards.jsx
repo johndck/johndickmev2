@@ -1,6 +1,6 @@
 function InfluenceCards({ influence }) {
   return (
-    <div className="border bg-white rounded-lg p-3 flex flex-col space-y-4">
+    <div className=" bg-stone-50 rounded-lg p-3 flex flex-col space-y-4 shadow-lg">
       <div className="">
         <h3 className="font-bold">{influence.influence}</h3>
       </div>

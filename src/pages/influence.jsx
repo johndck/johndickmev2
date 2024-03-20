@@ -19,7 +19,7 @@ function Influence() {
                 regularly influenced by the content shared.
               </p>
 
-              <div className=" bg-slate-100 rounded-xl p-6">
+              <div className=" rounded-xl p-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                   {data.map((influence) => {
                     return (

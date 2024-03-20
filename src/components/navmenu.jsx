@@ -21,16 +21,17 @@ function NavElements() {
       </button>
 
       {isOpen && (
-        <div className="absolute container top-full border bg-white h-60 flex flex-col items-center ">
-          <div className="flex flex-col items-center space-y-4 mt-4">
+        <div className="absolute container top-full border bg-white h-60 flex flex-col items-center rounded-b-lg">
+          <div className="flex flex-col items-center space-y-6 mt-4">
             <Link to="/evidence" onClick={toggleMenu}>
               Delivery Evidence
             </Link>
-            <Link to="/focus" onClick={toggleMenu}>
-              Focus
-            </Link>
+
             <Link to="/influence" onClick={toggleMenu}>
               Influences
+            </Link>
+            <Link to="/focus" onClick={toggleMenu}>
+              Focus
             </Link>
             <Link to="/contact" onClick={toggleMenu}>
               Contact
@@ -46,15 +47,16 @@ function NavElements() {
         <Link to="/evidence" className="mr-4 text-neutral-400 hover:text-black">
           Delivery Evidence
         </Link>
-        <Link to="/focus" className="mr-4  text-neutral-400 hover:text-black">
-          Focus
-        </Link>
         <Link
           to="/influence"
           className="mr-4 text-neutral-400 hover:text-black"
         >
           Influences
         </Link>
+        <Link to="/focus" className="mr-4  text-neutral-400 hover:text-black">
+          Focus
+        </Link>
+
         <Link to="/contact" className="mr-4 text-neutral-400 hover:text-black">
           Contact
         </Link>
