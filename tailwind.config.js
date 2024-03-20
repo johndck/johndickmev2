@@ -16,6 +16,7 @@ module.exports = {
         h3: "2rem", // Set the font size for h3
         h4: "1.5rem", // Set the font size for h4
         p: "1.2rem", // Set the font size for p
+        pCard: "1.1rem", // Set the font size for project card
         footerP: "0.9rem", // footer fontsize
       },
       maxWidth: {
@@ -34,6 +35,9 @@ module.exports = {
       md: "768px",
       lg: "1024px",
       xl: "1280px",
+    },
+    listStyleType: {
+      disc: "disc",
     },
   },
   plugins: [],

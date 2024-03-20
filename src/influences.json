@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "influence": "The All-In Podcast",
+    "explanation": "Insightful and entertaining discussion from the 4 besties. Makes me think a great deal.",
+    "linkto": "https://www.allinpodcast.co/"
+  },
+  {
+    "id": "2",
+    "influence": "David Goggins",
+    "explanation": "An unbelievable human. His mental toughness reminds me to take full accountability for all my situations.",
+    "linkto": "https://davidgoggins.com"
+  },
+  {
+    "id": "3",
+    "influence": "Andrew Huberman",
+    "explanation": "Scientific knowledge on all things related to our brain and body. Unbelievable content",
+    "linkto": "https://www.hubermanlab.com"
+  },
+  {
+    "id": "4",
+    "influence": "Tim Ferriss",
+    "explanation": "Providing insights podcasts and books for over a decade.",
+    "linkto": "https://tim.blog"
+  },
+  {
+    "id": "5",
+    "influence": "Jim Collins",
+    "explanation": "Venture capitalists talking about fantastic topics",
+    "linkto": "https://www.allinpodcast.com/"
+  },
+  {
+    "id": "6",
+    "influence": "Paul Graham",
+    "explanation": "Deep wisdom on startups and life. His essays are a must read.",
+    "linkto": "https://www.paulgraham.com/"
+  },
+  {
+    "id": "7",
+    "influence": "Mark Jacobson",
+    "explanation": "My go-to on all things energy and climate. His book 'No Miracles Needed' is a must-read.",
+    "linkto": "https://web.stanford.edu/group/efmh/jacobson"
+  },
+  {
+    "id": "8",
+    "influence": "Ray Dalio",
+    "explanation": "His Principles book is a phenomenal read. His thoughts on life and business are insightful.",
+    "linkto": "https://www.principles.com"
+  },
+  {
+    "id": "9",
+    "influence": "Scott Bellsky",
+    "explanation": "Sound and wise advice for building anything",
+    "linkto": "https://www.scottbelsky.com/"
+  },
+  {
+    "id": "10",
+    "influence": "DHH and Jason Fried",
+    "explanation": "Just read their content. Enough said!",
+    "linkto": "https://basecamp.com/shapeup/"
+  },
+  {
+    "id": "11",
+    "influence": "Alex Hormozi",
+    "explanation": "Massive fan of Alex's content and insights he shares about the world of growing businesses.",
+    "linkto": "https://www.acquisition.com/"
+  },
+  {
+    "id": "12",
+    "influence": "Climate Brief",
+    "explanation": "Fact based resource for all things climate",
+    "linkto": "https://www.carbonbrief.org/"
+  },
+  {
+    "id": "13",
+    "influence": "Cleaning Up Podcast",
+    "explanation": "Incredible insights on the world of energy and climate. Michael Liebreich is a great host.",
+    "linkto": "https://www.cleaningup.live"
+  }
+]

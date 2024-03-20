@@ -11,16 +11,18 @@ function Evidence() {
       <main>
         <section>
           <div className="container sm:mx-auto sm:max-w-4/5 md:mx-auto md:max-w-4/5 lg:mx-auto lg:max-w-4/5 xl:mx-auto xl:w-9/10 xl:max-w-1280">
-            <div>
-              <h1>Past delivery</h1>
-              <p>I am very much a doer...here are some examples...</p>
-            </div>
+            <div className="p-3">
+              <h3 className="text-h3 font-opensans">Past delivery</h3>
+              <p className="text-p font-opensans mt-3 mb-3">
+                I am very much a doer...here are some examples...
+              </p>
 
-            <div className=" bg-slate-100 rounded-xl p-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2">
-                {data.map((card) => {
-                  return <ProjectCard key={card.id} card={card} />;
-                })}
+              <div className=" bg-slate-100 rounded-xl p-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                  {data.map((card) => {
+                    return <ProjectCard key={card.id} card={card} />;
+                  })}
+                </div>
               </div>
             </div>
           </div>
