@@ -25,7 +25,7 @@ function NavElements() {
       </button>
       <div
         className={`absolute container top-full bg-white rounded-b-lg transition-all duration-700 ease-in-out ${
-          isOpen ? "max-h-60 opacity-100 shadow-xl" : "max-h-0 opacity-0"
+          isOpen ? "h-60 opacity-100 shadow-xl" : "h-0 opacity-0 invisible"
         }`}
       >
         <div className="flex flex-col items-center space-y-6 mt-4 mb-6 font-bold font-opensans">
