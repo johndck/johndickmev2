@@ -3,8 +3,8 @@ function Homeorgs() {
     <div className="text-white p-3 text-h2 font-opensans flex flex-col items-center">
       <h2>Where I have delivered:</h2>
 
-      <div className="grid md:w-124 mt-8 gap-6 p-3 mb-6">
-        <div className="p-12 rounded-xl bg-slate-600 flex justify-center">
+      <div className="p-3 grid grid-cols-1 sm:grid-cols-2 mt-8 gap-6 mb-6 w-full">
+        <div className="p-8 rounded-xl bg-slate-600 flex justify-center">
           <div>
             <img src="/assets/RGA.png" alt="Reinsurance Group of America" />
           </div>
