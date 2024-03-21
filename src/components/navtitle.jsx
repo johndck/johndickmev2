@@ -8,7 +8,7 @@ function Navtitle() {
         <img
           src="/assets/johndick.png"
           alt="picture of John Dick"
-          className="h-16 w-auto"
+          className="h-20 w-auto"
         />
       </Link>
       <h2 className="p-8 font-opensans text-h3 font-semibold">John Dick</h2>

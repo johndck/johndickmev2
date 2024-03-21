@@ -28,7 +28,7 @@ function NavElements() {
           isOpen ? "max-h-60 opacity-100 shadow-xl" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="flex flex-col items-center space-y-6 mt-4 mb-6">
+        <div className="flex flex-col items-center space-y-6 mt-4 mb-6 font-bold font-opensans">
           <Link to="/evidence" onClick={toggleMenu}>
             Delivery Evidence
           </Link>
