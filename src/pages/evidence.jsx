@@ -17,7 +17,7 @@ function Evidence() {
                 I am very much a doer...here are some examples...
               </p>
 
-              <div className="rounded-xl p-6">
+              <div className="rounded-xl">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                   {data.map((card) => {
                     return <ProjectCard key={card.id} card={card} />;
