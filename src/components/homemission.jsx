@@ -1,7 +1,7 @@
 function Homemission() {
   return (
-    <div className="p-3 mb-8">
-      <div className="w-11/12 mx-auto bg-slate-100 rounded-lg p-3">
+    <div className="p-3">
+      <div className="mx-auto bg-slate-100 rounded-lg p-3">
         <h2 className="text-h3 font-opensans">This is me 👋</h2>
         <p className="text-p font-opensans mt-3">
           For the next decade, my work will on removing blockers to the
