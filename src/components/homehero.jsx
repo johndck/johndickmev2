@@ -1,6 +1,21 @@
+import { useState } from "react";
+import { useEffect } from "react";
+
 function Homehero() {
+  const [opacity, setOpacity] = useState(0);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setOpacity(1);
+    }, 200);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="p-3">
+    <div
+      className="p-3"
+      style={{ transition: "opacity 0.5s ease-in-out", opacity: opacity }}
+    >
       <h1 className="text-h1 font-opensans mt-2 mb-6">Who am I?</h1>
       <p className="text-p font-opensans mt-3">
         I am{" "}
