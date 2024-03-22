@@ -32,14 +32,12 @@ function Footer() {
             email: johnturnerdick@gmail.com
           </a>
           <p className="text-footerP font-opensans">
-            release version 0.9 19 Mar 2024
+            release version 1.0 | 22 Mar 2024
           </p>
           <p className="text-footerP font-opensans">
-            coded by me using React & Tailwind
+            Made by: John Dick | React + Tailwind
           </p>
-          <p className="text-footerP font-opensans">
-            copyright: John Dick 2024
-          </p>
+          <p className="text-footerP font-opensans">&copy; John Dick 2024 </p>
         </div>
       </div>
     </footer>
