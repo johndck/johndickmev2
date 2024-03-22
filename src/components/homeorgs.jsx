@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 function Homeorgs() {
   return (
-    <div className="p-3 text-h2 font-opensans flex flex-col items-center">
+    <div className="p-3 text-h2 leading-tight font-opensans flex flex-col items-center">
       <h2>Where I have delivered:</h2>
 
       <div className="p-3 grid grid-cols-1 sm:grid-cols-2 mt-8 gap-6 mb-6 w-full">
@@ -66,8 +68,12 @@ function Homeorgs() {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center mb-8">
-        <h3 className="text-h3 font-opensans">Want evidence? See:</h3>
-        <h2 className="text-h3 font-opensans">Past delivery</h2>
+        <h3 className="text-pCard font-opensans">See:</h3>
+        <h2 className="text-h3 font-opensans">
+          <Link to="/evidence" className="hover:font-semibold">
+            Delivery evidence
+          </Link>
+        </h2>
       </div>
     </div>
   );

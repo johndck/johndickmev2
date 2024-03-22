@@ -20,7 +20,7 @@ function Homehero() {
       </p>
 
       <p className="text-p font-opensans mt-5">
-        My skills have been developed over the last 20 years of making things
+        My skills have been developed over the last 20 years from making things
         happen.
       </p>
       <p className="text-p font-opensans mt-5">
@@ -29,8 +29,8 @@ function Homehero() {
         <span className="font-bold">design sprint facilitation.</span>
       </p>
       <p className="text-p font-opensans mt-5 mb-12">
-        Uniquely, I am skilled in coding: html, css, javascript, node.js, react
-        and tailwind css.
+        I bring ideas to life quickly. I am skilled in: Figma, Webflow, HTML,
+        CSS, Javascript, React and Node.js.
       </p>
     </div>
   );
