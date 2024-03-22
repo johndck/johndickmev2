@@ -11,7 +11,7 @@ module.exports = {
         opensans: ["Open Sans", "sans-serif"],
       },
       fontSize: {
-        h1: "4rem", // Set the font size for h1
+        h1: "3.2rem", // Set the font size for h1
         h2: "3rem", // Set the font size for h2
         h3: "2rem", // Set the font size for h3
         h4: "1.5rem", // Set the font size for h4

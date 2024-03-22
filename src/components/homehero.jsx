@@ -12,22 +12,25 @@ function Homehero() {
         >
           @johntmdick
         </a>{" "}
-        a product and programme delivery manager, creating solutions for the
-        all-electric, sustainable, future.
+        a digital product and programme delivery manager.
       </p>
 
-      <p className="text-p font-opensans mt-5">This is my website.</p>
+      <p className="text-p font-opensans mt-5">
+        I am a doer. I operate in the detail and &quot;the clouds&quot;.
+      </p>
 
       <p className="text-p font-opensans mt-5">
-        I have 20 years of &quot;hands-on&quot; delivery expertise.
+        My skills have been developed over the last 20 years of making things
+        happen.
       </p>
       <p className="text-p font-opensans mt-5">
-        My core skillset covers product management, project & programme delivery
-        mgt and design sprint facilitation.
+        My core skillset: <span className="font-bold">product management</span>,
+        <span className="font-bold"> project & programme mgt</span> and{" "}
+        <span className="font-bold">design sprint facilitation.</span>
       </p>
       <p className="text-p font-opensans mt-5 mb-12">
-        Uniquely, I have a technical coding skills in html, css, javascript,
-        node.js, react and tailwind css.
+        Uniquely, I am skilled in coding: html, css, javascript, node.js, react
+        and tailwind css.
       </p>
     </div>
   );

@@ -1,15 +1,15 @@
 function Homeorgs() {
   return (
-    <div className="text-white p-3 text-h2 font-opensans flex flex-col items-center">
+    <div className="p-3 text-h2 font-opensans flex flex-col items-center">
       <h2>Where I have delivered:</h2>
 
       <div className="p-3 grid grid-cols-1 sm:grid-cols-2 mt-8 gap-6 mb-6 w-full">
-        <div className="p-8 rounded-xl bg-slate-600 flex justify-center">
+        <div className="p-8 rounded-xl bg-gradient-to-b from-slate-300 to-slate-100 flex justify-center">
           <div>
             <img src="/assets/RGA.png" alt="Reinsurance Group of America" />
           </div>
         </div>
-        <div className="p-8 rounded-xl bg-slate-600 flex justify-center">
+        <div className="p-8 rounded-xl bg-gradient-to-b from-slate-300 to-slate-100 flex justify-center">
           <div>
             <img
               src="/assets/ESURE.png"
@@ -18,7 +18,7 @@ function Homeorgs() {
             />
           </div>
         </div>
-        <div className="p-8 rounded-xl bg-slate-600 flex justify-center">
+        <div className="p-8 rounded-xl bg-gradient-to-b from-slate-300 to-slate-50 flex justify-center">
           <div>
             <img
               src="/assets/PrincesTrust.png"
@@ -27,12 +27,12 @@ function Homeorgs() {
             />
           </div>
         </div>
-        <div className="p-8 rounded-xl bg-slate-600 flex justify-center">
+        <div className="p-8 rounded-xl bg-gradient-to-b from-slate-300 to-slate-100 flex justify-center">
           <div>
             <img src="/assets/FCA.png" alt="The FCA" className="showcaseIcon" />
           </div>
         </div>
-        <div className="p-8 rounded-xl bg-slate-600 flex justify-center">
+        <div className="p-8 rounded-xl bg-gradient-to-b from-slate-300 to-slate-100 flex justify-center">
           <div>
             <img
               src="/assets/NetworkRail.png"
@@ -41,12 +41,12 @@ function Homeorgs() {
             />
           </div>
         </div>
-        <div className="p-8 rounded-xl bg-slate-600 flex justify-center">
+        <div className="p-8 rounded-xl bg-gradient-to-b from-slate-300 to-slate-100 flex justify-center">
           <div>
             <img src="/assets/MOD.png" alt="THE MOD" className="showcaseIcon" />
           </div>
         </div>
-        <div className="p-8 rounded-xl bg-slate-600 flex justify-center">
+        <div className="p-8 rounded-xl bg-gradient-to-b from-slate-300 to-slate-100 flex justify-center">
           <div>
             <img
               src="/assets/Homeserve.png"
@@ -55,7 +55,7 @@ function Homeorgs() {
             />
           </div>
         </div>
-        <div className="p-8 rounded-xl bg-slate-600 flex justify-center">
+        <div className="p-8 rounded-xl bg-gradient-to-b from-slate-300 to-slate-100 flex justify-center">
           <div>
             <img
               src="/assets/Capgemini.png"
