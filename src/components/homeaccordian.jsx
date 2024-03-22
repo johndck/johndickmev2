@@ -1,6 +1,6 @@
 import accData from "../accordian.json";
 import { useState } from "react";
-import AccordianItem from "./accordianitem";
+import AccordianItem from "./accordianitem.jsx";
 
 function Homeaccordian() {
   const [curOpen, setCurOpen] = useState(null);
