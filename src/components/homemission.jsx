@@ -1,7 +1,7 @@
 function Homemission() {
   return (
     <div className="p-3">
-      <div className="mx-auto bg-slate-100 rounded-lg p-3">
+      <div className="mx-auto p-3">
         <h2 className="text-h3 font-opensans">This is me 👋</h2>
         <p className="text-p font-opensans mt-3">
           For the next decade, my work will on removing blockers to the
@@ -24,7 +24,7 @@ function Homemission() {
             innovation to unlock sustainable economic growth
           </li>
         </ul>
-        <div className="mt-3 flex flex-col justify-center items-center">
+        <div className="mt-8 flex flex-col justify-center items-center">
           <img
             src="assets/johndick.jpg"
             alt="profile"
