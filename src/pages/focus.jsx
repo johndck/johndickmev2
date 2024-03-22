@@ -36,11 +36,6 @@ function Focus() {
                 These KPIs were set as part of a mini-retirement I started at
                 the end of Summer 2023.
               </p>
-              <p className="text-p font-opensans mt-3 mb-12">
-                I am coming to the end of my mini-retirement having (1)
-                completed a coding bootcamp, (2) sold more soccersacs on
-                Soccersac.com and (3) studied the GB energy system.
-              </p>
 
               <div className="mt-6 rounded-xl">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-14 mb-20">
@@ -77,6 +72,9 @@ function Focus() {
                       </div>
                       <p className="text-footerP">
                         Complete climate transition accelerator programme.
+                      </p>
+                      <p className="text-footerP mt-2">
+                        Complete research into the GB Energy system.
                       </p>
                     </div>
                   </div>

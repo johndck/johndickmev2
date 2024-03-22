@@ -5,8 +5,8 @@ function Homemission() {
         <h2 className="text-h3 font-opensans">This is me 👋</h2>
         <p className="text-p font-opensans mt-3">
           For the next decade, my work will on removing blockers to the
-          all-electric economy. I want sustainable economic growth (powered by
-          clean, renewable energy).
+          all-electric sustainable economy. I want sustainable economic growth
+          powered by clean, renewable energy.
         </p>
         <p className="text-h3 font-opensans mt-3">Areas of focus:</p>
 
@@ -16,8 +16,8 @@ function Homemission() {
             powered by clean renewable energy
           </li>
           <li className="list-disc font-opensans">
-            <span className="font-bold font-opensans">Area 2:</span> tackle the
-            barriers to economic growth with sustainable solutions
+            <span className="font-bold font-opensans">Area 2:</span> barriers to
+            economic growth with sustainable solutions
           </li>
           <li className="list-disc font-opensans">
             <span className="font-bold font-opensans">Area 3:</span> technology
