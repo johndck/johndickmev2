@@ -18,6 +18,7 @@ module.exports = {
         p: "1.2rem", // Set the font size for p
         pCard: "1.1rem", // Set the font size for project card
         footerP: "0.9rem", // footer fontsize
+        badgeP: "0.6rem", // background fontsize
       },
       maxWidth: {
         1280: "1280px",
