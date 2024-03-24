@@ -32,8 +32,8 @@ function Influence() {
             >
               <h3 className="text-h3 font-opensans">Influences</h3>
               <p className="text-p font-opensans mt-3 mb-3">
-                The wisdom in these resources is unbelievable. My thinking is
-                regularly influenced by the content shared.
+                The following resources are highly recommended. I keep returning
+                to them to help me with my thinking.
               </p>
 
               <div className=" rounded-xl p-6">
